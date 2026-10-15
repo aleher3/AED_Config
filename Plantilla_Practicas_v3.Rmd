@@ -339,7 +339,7 @@ Podemos referirnos a una figura haciendo referencia al nombre del chunk `\@ref(f
 
 ```{r newFig, echo=TRUE, out.width='60%', fig.align='center', fig.cap='Histograma.'}
 
-hist(rnorm(100000),breaks=100)
+hist(rnorm(100),breaks=10)
 
 ```
 
